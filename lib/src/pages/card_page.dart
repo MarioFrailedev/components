@@ -13,18 +13,17 @@ class CardPage extends StatelessWidget {
         padding: EdgeInsets.all(10),
         children: <Widget>[
           _cardType1(),
-          SizedBox(height: 10.0),
+          SizedBox(height: 15.0),
           _cardType2(),
-          SizedBox(height: 10.0),
+          SizedBox(height: 15.0),
           _cardType1(),
-          SizedBox(height: 10.0),
+          SizedBox(height: 15.0),
           _cardType2(),
-          SizedBox(height: 10.0),
+          SizedBox(height: 15.0),
           _cardType1(),
-          SizedBox(height: 10.0),
+          SizedBox(height: 15.0),
           _cardType2(),
-          SizedBox(height: 10.0),
-          
+          SizedBox(height: 15.0),
         ],
       ),
     );
@@ -57,7 +56,6 @@ class CardPage extends StatelessWidget {
         ],
         ),
       );
-
   }
 
   _cardType2() {
@@ -71,7 +69,7 @@ class CardPage extends StatelessWidget {
           FadeInImage(
             image: NetworkImage('https://wallpapercave.com/wp/wp2065394.png'),
             placeholder: AssetImage('assets/jar-loading.gif'),
-            fadeInDuration: Duration(milliseconds: 100),
+            fadeInDuration: Duration(milliseconds: 80),
             height: 250.0,
             fit: BoxFit.cover,
           ),

@@ -20,7 +20,21 @@
             "ruta" : "pickleRick",
             "icon" : "link",
             "texto": "Pepino Rick Cards"
+        },
+        {
+            "ruta" : "animatedContainer",
+            "icon" : "donuts_large",
+            "texto": "Animaciones"
+        },
+        {
+            "ruta" : "inputs",
+            "icon" : "input",
+            "texto": "Forumularios"
+        },
+        {
+            "ruta" : "list",
+            "icon" : "list",
+            "texto": "listas"
         }
-        
     ]
 }
