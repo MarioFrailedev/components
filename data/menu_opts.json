@@ -32,9 +32,14 @@
             "texto": "Forumularios"
         },
         {
+            "ruta" : "slider",
+            "icon" : "tune",
+            "texto": "Slider-checks"
+        },
+        {
             "ruta" : "list",
             "icon" : "list",
-            "texto": "listas"
+            "texto": "Listas y Scroll"
         }
     ]
 }

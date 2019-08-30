@@ -8,7 +8,8 @@ import 'package:flutter/material.dart';
     'link'           : Icons.link,
     'donuts_large'   : Icons.donut_large,
     'input'          : Icons.input,
-    'list'          : Icons.list,
+    'tune'           : Icons.tune,
+    'list'           : Icons.list,
 
   };
 

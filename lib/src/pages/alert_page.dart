@@ -35,8 +35,6 @@ class AlertPage extends StatelessWidget {
               textColor: Colors.white,
               onPressed: () => _showAlert(context),
             ),
-
-            
           ),
         ],
       ),

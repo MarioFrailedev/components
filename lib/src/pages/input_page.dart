@@ -52,7 +52,7 @@ class _InputPageState extends State<InputPage> {
           borderRadius: BorderRadius.circular(20.0),
         ),
         counter: Text('Letras ${_name.length}'),
-        hintText: 'Juan Perez',
+        hintText: 'Rick Sanchez',
         labelText: 'Nombre',
         helperText: 'Nombre completo',
         suffixIcon: Icon(Icons.person),
@@ -77,7 +77,7 @@ class _InputPageState extends State<InputPage> {
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(20.0),
         ),
-        hintText: 'ejemplo@gmail.com',
+        hintText: 'planetac77@gmail.com',
         labelText: 'Email',
         suffixIcon: Icon(Icons.alternate_email),
       ),
