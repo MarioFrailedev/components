@@ -38,17 +38,11 @@ class _ListPageState extends State<ListPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Listas'),
-        centerTitle: true,
-      ),
-      body:Stack(
+    return Stack(
         children: <Widget>[
           _bList(),
           _bLoading(),  
         ],
-      ),
     );
   }
 

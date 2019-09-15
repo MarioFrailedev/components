@@ -1,6 +1,7 @@
 import 'package:components/src/pages/input_page.dart';
 import 'package:components/src/pages/listView_page.dart';
 import 'package:components/src/pages/slider_page.dart';
+import 'package:components/src/pages/tabs.dart';
 import 'package:flutter/material.dart';
 
 import 'package:components/src/pages/alert_page.dart';
@@ -22,7 +23,8 @@ Map<String, WidgetBuilder> getApplicationRoutes () {
         'animatedContainer'       : ( BuildContext context) => AnimatedContainerPage(),
         'inputs'      : ( BuildContext context) => InputPage(),
         'slider'      : ( BuildContext context) => SliderPage(),
-        'list'      : ( BuildContext context) => ListPage(),           
+        'list'      : ( BuildContext context) => ListPage(),
+        'tabs'      : ( BuildContext context) => TabsWidget(),     
   };
 }
 

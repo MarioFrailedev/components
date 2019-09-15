@@ -18,12 +18,7 @@ class _InputPageState extends State<InputPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Formularios'),
-        centerTitle: true,
-      ),
-      body: ListView(
+    return ListView(
         padding: EdgeInsets.symmetric(horizontal: 15.0, vertical:20.0),
         children: <Widget>[
           _nameInput(),
@@ -39,7 +34,6 @@ class _InputPageState extends State<InputPage> {
           _showData(),
           
         ],
-      ),
     );
   }
 

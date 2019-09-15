@@ -20,12 +20,13 @@ class MyApp extends StatelessWidget {
       const Locale('en'), // English
       const Locale('es'), // español
     ],
+    theme: ThemeData(primaryColor: Colors.blue[50]),
 
       title: 'Components Planet',
       debugShowCheckedModeBanner: false,
       
       //home: HomePage()
-      initialRoute: '/',
+      initialRoute: 'tabs',
       routes: getApplicationRoutes(),
       onGenerateRoute: (settings) {
         return MaterialPageRoute (builder: (BuildContext context) => AlertPage());

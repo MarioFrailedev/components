@@ -4,13 +4,7 @@ class PickleRickPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Pickle Rick Cards'),
-        centerTitle: true,
-      ),
-      
-      body: ListView(
+    return ListView(
       padding: EdgeInsets.all(10),
         children: <Widget>[
           Text('Histoia de Rick pepino', style: TextStyle(fontSize: 20, color: Colors.black), textAlign: TextAlign.center, ),
@@ -30,7 +24,6 @@ class PickleRickPage extends StatelessWidget {
            SizedBox(height: 15.0),
           _cardHistoryPart8(),
         ],
-      ),
     );
   }
 

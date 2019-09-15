@@ -4,12 +4,7 @@ class CardPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Card Components'),
-        centerTitle: true,
-      ),
-      body: ListView(
+    return ListView(
         padding: EdgeInsets.all(10),
         children: <Widget>[
           _cardType1(),
@@ -25,7 +20,6 @@ class CardPage extends StatelessWidget {
           _cardType2(),
           SizedBox(height: 15.0),
         ],
-      ),
     );
   }
 
